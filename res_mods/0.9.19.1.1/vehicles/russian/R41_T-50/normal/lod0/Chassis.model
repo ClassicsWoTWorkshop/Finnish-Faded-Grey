@@ -1,0 +1,10 @@
+<chassis.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.21528 -0.00198531 -2.53471</min>
+    <max>1.21528 0.971017 2.45749</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/russian/R41_T-50/normal/lod0/Chassis</nodefullVisual>
+</chassis.model>
