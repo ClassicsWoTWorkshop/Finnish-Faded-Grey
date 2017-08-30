@@ -1,0 +1,10 @@
+<turret_01.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-0.729638 -0.000012 -1.4671</min>
+    <max>0.729637 1.19521 0.973221</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/remodels/finnish/FI01_BT-42/normal/lod0/Turret_01</nodefullVisual>
+</turret_01.model>

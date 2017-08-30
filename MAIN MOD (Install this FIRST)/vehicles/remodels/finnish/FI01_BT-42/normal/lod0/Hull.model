@@ -1,0 +1,10 @@
+<hull.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.08391 -0.496531 -2.71823</min>
+    <max>1.08164 0.904029 2.94446</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/remodels/finnish/FI01_BT-42/normal/lod0/Hull</nodefullVisual>
+</hull.model>

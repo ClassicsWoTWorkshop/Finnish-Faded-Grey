@@ -1,0 +1,9 @@
+<bt_7_track1.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-0.131458 -0.118344 -0.0984529</min>
+    <max>0.131458 0.0366052 0.0984529</max>
+  </visibilityBox>
+  <nodelessVisual>vehicles/remodels/finnish/FI01_BT-42/track/BT-42_track1</nodelessVisual>
+</bt_7_track1.model>

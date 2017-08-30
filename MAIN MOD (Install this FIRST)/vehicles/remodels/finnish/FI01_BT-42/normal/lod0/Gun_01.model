@@ -1,0 +1,10 @@
+<gun_01.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>	-0.238768 -0.211235 0.218729	</min>
+    <max>	0.197177 0.255611 0.872767	</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/remodels/finnish/FI01_BT-42/normal/lod0/Gun_01</nodefullVisual>
+</gun_01.model>

@@ -1,0 +1,10 @@
+<chassis.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.12182 0.00161603 -2.69</min>
+    <max>1.12182 0.989889 2.8655</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/remodels/finnish/FI01_BT-42/normal/lod0/Chassis</nodefullVisual>
+</chassis.model>
