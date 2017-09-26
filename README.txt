@@ -8,7 +8,8 @@ OPTIONAL:
 
 Enjoy! Please note: this is still an early beta release, and will soon have more content added to it.
 
-- FastestClassic
+Made by FastestClassic.
 
 CHANGELOG:
 27. Aug - Initial release (includes T-26, BT-2, BT-7, T-28, T-50, KV-1, T-34, T-34-85, BT-7A, & support for Milkym4n's BT-42)
+30. Aug - Added Finnish roundel to all recolored vehicles + included Milkym4n's BT-42 by default, with his permission (replaces BT-7A)
