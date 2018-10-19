@@ -1,7 +1,7 @@
 Thank you for downloading!
 
 To install:
-- Drop the "gui", "scripts", and "vehicles" folders from within the "MAIN MOD (Install this FIRST)" folder into <Your WoT Directory>\res_mods\<game version number>. Example: C:\Games\World_Of_Tanks\res_mods\0.9.20.0.
+- Drop the "gui", "scripts", and "vehicles" folders from within the "MAIN MOD (Install this FIRST)" folder into <Your WoT Directory>\res_mods\<game version number>. Example: C:\Games\World_Of_Tanks\res_mods\1.2.0.1.
 
 OPTIONAL:
 - If you'd like to apply this color to all of the Swedish vehicles, drag the "gui" and "vehicles" folders from within the "OPTIONAL - Apply color to all Swedish vehicles [fictional]" folder to the same location as above.

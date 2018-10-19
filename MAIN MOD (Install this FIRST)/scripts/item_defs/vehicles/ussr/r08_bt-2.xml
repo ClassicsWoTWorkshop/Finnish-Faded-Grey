@@ -1,4 +1,5 @@
 <r08_bt-2.xml>
+  <xmlref>http://bwt/xmlref</xmlref>
   <crew>
     <commander>	radioman	</commander>
     <driver>
@@ -69,30 +70,52 @@
       <collisionModelServer>vehicles/russian/R08_BT-2/collision/Hull.model</collisionModelServer>
       <collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Hull.model</collisionModelClient>
     </hitTester>
-    <emblemSlots>
-      <clan>
+    <hangarShadowTexture>vehicles/russian/R08_BT-2/BT-2_HangarShadowMap.dds</hangarShadowTexture>
+    <customization>
+      <customizableVehicleAreas>
+        <paint>
+        </paint>
+        <camouflage>	HULL	</camouflage>
+      </customizableVehicleAreas>
+    </customization>
+    <customizationSlots>
+      <slot>
+        <slotType>	clan	</slotType>
+        <slotId>	1	</slotId>
         <rayStart>-0.000517845 0.237263 2.26212</rayStart>
         <rayEnd>-0.000517845 -0.11259 2.0682</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
         <size>0.28</size>
         <hideIfDamaged>	true	</hideIfDamaged>
-      </clan>
-      <inscription>
+        <isUVProportional>	true	</isUVProportional>
+      </slot>
+      <slot>
+        <slotType>inscription</slotType>
+        <slotId>	2	</slotId>
         <rayStart>	-0.782222 0.511275 0.216103	</rayStart>
         <rayEnd>	-0.762222 0.511275 0.216103	</rayEnd>
         <rayUp>0.000000 1 0.000000</rayUp>
         <size>0.46</size>
         <hideIfDamaged>	true	</hideIfDamaged>
-      </inscription>
-      <inscription>
+        <isUVProportional>	true	</isUVProportional>
+      </slot>
+      <slot>
+        <slotType>inscription</slotType>
+        <slotId>	3	</slotId>
         <rayStart>	0.782222 0.511275 0.216103	</rayStart>
         <rayEnd>	0.762222 0.511275 0.216103	</rayEnd>
         <rayUp>0.000000 1 0.000000</rayUp>
         <size>0.46</size>
         <hideIfDamaged>	true	</hideIfDamaged>
-      </inscription>
-    </emblemSlots>
-    <hangarShadowTexture>vehicles/russian/R08_BT-2/BT-2_HangarShadowMap.dds</hangarShadowTexture>
+        <isUVProportional>	true	</isUVProportional>
+      </slot>
+      <slot>
+        <slotType>camouflage</slotType>
+        <slotId>	10	</slotId>
+        <anchorPosition>0.000000 0.738123 -1.42664</anchorPosition>
+        <anchorDirection>	0.000000 0.459524 -0.888165	</anchorDirection>
+      </slot>
+    </customizationSlots>
     <camouflage>
       <tiling>3.4 3.4 0.000000 0.000000</tiling>
     </camouflage>
@@ -103,9 +126,9 @@
       <tags>
       </tags>
       <level>	2	</level>
-      <price>260.0</price>
+      <price>	260	</price>
       <unlocks>
-        <chassis>BT-2bis<cost>90.0</cost></chassis>
+        <chassis>BT-2bis<cost>	90	</cost></chassis>
       </unlocks>
       <armor>
         <leftTrack>	10	</leftTrack>
@@ -218,7 +241,7 @@
         <segmentLength>0.488</segmentLength>
         <segmentOffset>0.2</segmentOffset>
         <segment2Offset>0.254</segment2Offset>
-        <lodDist>MEDIUM</lodDist>
+        <lodDist>SPLINE_TRACK</lodDist>
         <atlas>
           <UTiles>	1	</UTiles>
           <VTiles>	1	</VTiles>
@@ -390,13 +413,29 @@
           <maxOffset>0.06</maxOffset>
         </group>
       </groundNodes>
+      <customization>
+        <customizableVehicleAreas>
+          <paint>
+          </paint>
+          <camouflage>
+          </camouflage>
+        </customizableVehicleAreas>
+      </customization>
+      <customizationSlots>
+        <slot>
+          <slotType>style</slotType>
+          <slotId>	8	</slotId>
+          <anchorPosition>0.00022687 2.1474 0.545749</anchorPosition>
+          <anchorDirection>-0.000000 1 0.000000</anchorDirection>
+        </slot>
+      </customizationSlots>
     </BT-2>
     <BT-2bis>
       <userString>#ussr_vehicles:BT-2bis</userString>
       <tags>
       </tags>
       <level>	2	</level>
-      <price>520.0</price>
+      <price>	520	</price>
       <armor>
         <leftTrack>	10	</leftTrack>
         <rightTrack>	10	</rightTrack>
@@ -508,7 +547,7 @@
         <segmentLength>0.488</segmentLength>
         <segmentOffset>0.2</segmentOffset>
         <segment2Offset>0.254</segment2Offset>
-        <lodDist>MEDIUM</lodDist>
+        <lodDist>SPLINE_TRACK</lodDist>
         <atlas>
           <UTiles>	1	</UTiles>
           <VTiles>	1	</VTiles>
@@ -680,6 +719,22 @@
           <maxOffset>0.06</maxOffset>
         </group>
       </groundNodes>
+      <customization>
+        <customizableVehicleAreas>
+          <paint>
+          </paint>
+          <camouflage>
+          </camouflage>
+        </customizableVehicleAreas>
+      </customization>
+      <customizationSlots>
+        <slot>
+          <slotType>style</slotType>
+          <slotId>	9	</slotId>
+          <anchorPosition>0.000599754 2.14773 0.545533</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+      </customizationSlots>
     </BT-2bis>
   </chassis>
   <turrets0>
@@ -688,7 +743,7 @@
       <tags>
       </tags>
       <level>	1	</level>
-      <price>440.0</price>
+      <price>	440	</price>
       <armor>
         <armor_1>	26	</armor_1>
         <armor_2>	13	</armor_2>
@@ -716,8 +771,8 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_37mm_B-3>shared<maxAmmo>	92	</maxAmmo><reloadTime>2.5</reloadTime><aimingTime>2.5</aimingTime><unlocks><gun>_20mm_TNSH<cost>35.0</cost></gun><turret>BT-2_bis<cost>85.0</cost></turret></unlocks><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_04.model</collisionModelClient></hitTester><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
-        <_20mm_TNSH>shared<maxAmmo>	420	</maxAmmo><reloadTime>9.4</reloadTime><aimingTime>1.9</aimingTime><shotDispersionFactors><turretRotation>0.1</turretRotation><afterShot>1.3</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.53</shotDispersionRadius><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.238</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_01.model</collisionModelClient></hitTester><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_20mm_TNSH>
+        <_37mm_B-3>shared<maxAmmo>	92	</maxAmmo><reloadTime>2.5</reloadTime><aimingTime>2.5</aimingTime><unlocks><gun>_20mm_TNSH<cost>	35	</cost></gun><turret>BT-2_bis<cost>	85	</cost></turret></unlocks><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_04.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	18	</slotId><anchorPosition>-0.0020094 0.000084 0.758784</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
+        <_20mm_TNSH>shared<maxAmmo>	420	</maxAmmo><reloadTime>9.4</reloadTime><aimingTime>1.9</aimingTime><shotDispersionFactors><turretRotation>0.1</turretRotation><afterShot>1.3</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.53</shotDispersionRadius><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.238</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_01.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	12	</slotId><anchorPosition>-0.00132529 -0.00101244 1.00979</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_20mm_TNSH>
       </guns>
       <models>
         <undamaged>vehicles/russian/R08_BT-2/normal/lod0/Turret_01.model</undamaged>
@@ -729,35 +784,54 @@
         <collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Turret_01.model</collisionModelClient>
       </hitTester>
       <gunPosition>-0.05719 0.325445 0.424378</gunPosition>
-      <emblemSlots>
-        <player>
+      <showEmblemsOnGun>	false	</showEmblemsOnGun>
+      <physicsShape>0.869 -0.059 1.000 0.000 0.619 0.254 0.500 0.464 0.603 0.500 0.000 0.500 0.000 0.100 0.139</physicsShape>
+      <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+      <customization>
+        <customizableVehicleAreas>
+          <paint>
+          </paint>
+          <camouflage>TURRET</camouflage>
+        </customizableVehicleAreas>
+      </customization>
+      <customizationSlots>
+        <slot>
+          <slotType>player</slotType>
+          <slotId>	4	</slotId>
           <rayStart>	-0.763179 0.340431 -0.172675	</rayStart>
           <rayEnd>-0.376807 0.340431 -0.0691517</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.3</size>
           <hideIfDamaged>	false	</hideIfDamaged>
-        </player>
-        <player>
+          <isUVProportional>	true	</isUVProportional>
+        </slot>
+        <slot>
+          <slotType>player</slotType>
+          <slotId>	5	</slotId>
           <rayStart>	0.763179 0.340431 -0.172675	</rayStart>
           <rayEnd>0.376807 0.340431 -0.0691517</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.3</size>
           <hideIfDamaged>	true	</hideIfDamaged>
           <isMirrored>	true	</isMirrored>
-        </player>
-      </emblemSlots>
-      <showEmblemsOnGun>	false	</showEmblemsOnGun>
-      <physicsShape>0.869 -0.059 1.000 0.000 0.619 0.254 0.500 0.464 0.603 0.500 0.000 0.500 0.000 0.100 0.139</physicsShape>
-      <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+          <isUVProportional>	true	</isUVProportional>
+        </slot>
+        <slot>
+          <slotType>camouflage</slotType>
+          <slotId>	11	</slotId>
+          <anchorPosition>	0.000000 0.686104 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+      </customizationSlots>
     </BT-2_cylindrical>
     <BT-2_bis>
       <userString>#ussr_vehicles:BT-2_bis</userString>
       <tags>
       </tags>
       <level>	2	</level>
-      <price>500.0</price>
+      <price>	500	</price>
       <unlocks>
-        <gun>_45mm_20K<cost>125.0</cost></gun>
+        <gun>_45mm_20K<cost>	125	</cost></gun>
       </unlocks>
       <armor>
         <armor_1>	26	</armor_1>
@@ -787,9 +861,9 @@
       </surveyingDeviceHealth>
       <invisibilityFactor>1.005</invisibilityFactor>
       <guns>
-        <_37mm_B-3>shared<maxAmmo>	92	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 0 0.555556 0 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_08.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_08.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_08.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_08.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_08.model</collisionModelClient></hitTester><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
-        <_20mm_TNSH>shared<maxAmmo>	420	</maxAmmo><reloadTime>8.6</reloadTime><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionFactors><turretRotation>0.08</turretRotation><afterShot>1.3</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><shotDispersionRadius>0.53</shotDispersionRadius><aimingTime>1.7</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.238</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_05.model</collisionModelClient></hitTester><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_20mm_TNSH>
-        <_45mm_20K>shared<maxAmmo>	80	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><unlocks><vehicle>R03_BT-7<cost>	1500	</cost></vehicle></unlocks><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_09.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_09.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_09.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_09.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_09.model</collisionModelClient></hitTester><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_45mm_20K>
+        <_37mm_B-3>shared<maxAmmo>	92	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 0 0.555556 0 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_08.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_08.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_08.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_08.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_08.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	15	</slotId><anchorPosition>-0.083017 0.00436485 0.612836</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
+        <_20mm_TNSH>shared<maxAmmo>	420	</maxAmmo><reloadTime>8.6</reloadTime><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionFactors><turretRotation>0.08</turretRotation><afterShot>1.3</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><shotDispersionRadius>0.53</shotDispersionRadius><aimingTime>1.7</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.238</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_05.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	16	</slotId><anchorPosition>-0.0825608 0.00549936 0.924355</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_20mm_TNSH>
+        <_45mm_20K>shared<maxAmmo>	80	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><unlocks><vehicle>R03_BT-7<cost>	1500	</cost></vehicle></unlocks><armor><armor_1>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	13	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	10	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_6>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_6><armor_8>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_8><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 0.380783 8 0.444444 2 0.555556 2 0.619218 8 1 8</maxPitch></pitchLimits><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R08_BT-2/normal/lod0/Gun_09.model</undamaged><destroyed>vehicles/russian/R08_BT-2/crash/lod0/Gun_09.model</destroyed><exploded>vehicles/russian/R08_BT-2/crash/lod0/Gun_09.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R08_BT-2/collision/Gun_09.model</collisionModelServer><collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Gun_09.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	17	</slotId><anchorPosition>-0.0754182 0.00421405 0.857627</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.5 2.5 0.000000 0.000000</tiling></camouflage></_45mm_20K>
       </guns>
       <models>
         <undamaged>vehicles/russian/R08_BT-2/normal/lod0/Turret_02.model</undamaged>
@@ -801,33 +875,52 @@
         <collisionModelClient>vehicles/russian/R08_BT-2/collision_client/Turret_02.model</collisionModelClient>
       </hitTester>
       <gunPosition>	0.038939 0.318365 0.564201	</gunPosition>
-      <emblemSlots>
-        <player>
+      <showEmblemsOnGun>	false	</showEmblemsOnGun>
+      <physicsShape>0.939 -0.056 1.000 0.000 0.520 0.216 0.813 0.632 0.500 0.500 0.000 0.500 0.000 0.000 0.000</physicsShape>
+      <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+      <customization>
+        <customizableVehicleAreas>
+          <paint>
+          </paint>
+          <camouflage>TURRET</camouflage>
+        </customizableVehicleAreas>
+      </customization>
+      <customizationSlots>
+        <slot>
+          <slotType>player</slotType>
+          <slotId>	6	</slotId>
           <rayStart>	-0.270852 0.397933 -0.788588	</rayStart>
           <rayEnd>	-0.171502 0.397933 -0.777205	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.3</size>
           <hideIfDamaged>	false	</hideIfDamaged>
-        </player>
-        <player>
+          <isUVProportional>	true	</isUVProportional>
+        </slot>
+        <slot>
+          <slotType>player</slotType>
+          <slotId>	7	</slotId>
           <rayStart>	0.270852 0.397933 -0.788588	</rayStart>
           <rayEnd>	0.171502 0.397933 -0.777205	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.3</size>
           <hideIfDamaged>	false	</hideIfDamaged>
           <isMirrored>	true	</isMirrored>
-        </player>
-      </emblemSlots>
-      <showEmblemsOnGun>	false	</showEmblemsOnGun>
-      <physicsShape>0.939 -0.056 1.000 0.000 0.520 0.216 0.813 0.632 0.500 0.500 0.000 0.500 0.000 0.000 0.000</physicsShape>
-      <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
+          <isUVProportional>	true	</isUVProportional>
+        </slot>
+        <slot>
+          <slotType>camouflage</slotType>
+          <slotId>	14	</slotId>
+          <anchorPosition>	0.000000 0.658281 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+      </customizationSlots>
       <camouflage>
         <tiling>1.12 1.12 0.000000 0.000000</tiling>
       </camouflage>
     </BT-2_bis>
   </turrets0>
   <engines>
-    <M-5-400>shared<unlocks><engine>M-17T<cost>200.0</cost></engine></unlocks></M-5-400>
+    <M-5-400>shared<unlocks><engine>M-17T<cost>	200	</cost></engine></unlocks></M-5-400>
     <M-17T>shared</M-17T>
   </engines>
   <fuelTanks>
@@ -931,9 +1024,4 @@
     <lodDist>MEDIUM</lodDist>
     <alpha>0.88</alpha>
   </emblems>
-  <horns>
-    <priceFactor>	1	</priceFactor>
-    <distanceFactor>	1	</distanceFactor>
-    <volumeFactor>	1	</volumeFactor>
-  </horns>
 </r08_bt-2.xml>
