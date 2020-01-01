@@ -91,6 +91,8 @@
 					</property>
 					<property>alphaReference<Int>	128	</Int>
 					</property>
+					<property>colorIdMap<Texture>vehicles/remodels/finnish/FI01_BT-42/BT-42_guns_ID.dds</Texture>
+					</property>
 				</material>
 			</primitiveGroup>
 		</geometry>
@@ -128,6 +130,8 @@
 					<property>g_useDetailMetallic<Bool>	true	</Bool>
 					</property>
 					<property>excludeMaskAndAOMap<Texture>vehicles/remodels/finnish/FI01_BT-42/BT-42_guns_AO.dds</Texture>
+					</property>
+					<property>colorIdMap<Texture>vehicles/remodels/finnish/FI01_BT-42/BT-42_guns_ID.dds</Texture>
 					</property>
 				</material>
 			</primitiveGroup>

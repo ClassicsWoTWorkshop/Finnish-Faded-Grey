@@ -85,15 +85,14 @@
     <hangarShadowTexture>vehicles/russian/R80_KV1/KV1_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint>
-        </paint>
+        <paint>	HULL	</paint>
         <camouflage>	HULL	</camouflage>
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
       <slot>
         <slotType>	clan	</slotType>
-        <slotId>	1	</slotId>
+        <slotId>	10000	</slotId>
         <rayStart>-0.00344938 0.114399 2.82073</rayStart>
         <rayEnd>-0.00344938 -0.0676871 2.73799</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
@@ -103,13 +102,21 @@
       </slot>
       <slot>
         <slotType>camouflage</slotType>
-        <slotId>	19	</slotId>
+        <slotId>	12000	</slotId>
+        <anchorPosition>0.000000 0.55197 -2.36719</anchorPosition>
+        <anchorDirection>	0.000000 0.227083 -0.973875	</anchorDirection>
+      </slot>
+      <slot>
+        <slotType>paint</slotType>
+        <slotId>	11000	</slotId>
         <anchorPosition>0.000000 0.55197 -2.36719</anchorPosition>
         <anchorDirection>	0.000000 0.227083 -0.973875	</anchorDirection>
       </slot>
     </customizationSlots>
     <camouflage>
       <tiling>1.12 1.12 0.000000 0.000000</tiling>
+      <density>98.0901 97.8331</density>
+      <aoTextureSize>1024 1024</aoTextureSize>
     </camouflage>
   </hull>
   <chassis>
@@ -754,8 +761,7 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>CHASSIS</paint>
           <camouflage>
           </camouflage>
         </customizableVehicleAreas>
@@ -763,9 +769,15 @@
       <customizationSlots>
         <slot>
           <slotType>style</slotType>
-          <slotId>	17	</slotId>
-          <anchorPosition>0.000093 2.49953 0.440098</anchorPosition>
-          <anchorDirection>0.000000 1 -0.000000</anchorDirection>
+          <slotId>	29000	</slotId>
+          <anchorPosition>-0.005355 2.52177 0.441426</anchorPosition>
+          <anchorDirection>-0.000000 1 -0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	21000	</slotId>
+          <anchorPosition>-1.65609 0.633292 -0.00950003</anchorPosition>
+          <anchorDirection>-0.934023 0.357172 -0.00535795</anchorDirection>
         </slot>
       </customizationSlots>
     </Chassis_KV1>
@@ -1410,8 +1422,7 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>CHASSIS</paint>
           <camouflage>
           </camouflage>
         </customizableVehicleAreas>
@@ -1419,9 +1430,15 @@
       <customizationSlots>
         <slot>
           <slotType>style</slotType>
-          <slotId>	18	</slotId>
-          <anchorPosition>0.000092 2.49953 0.440091</anchorPosition>
-          <anchorDirection>-0.000000 1 -0.000000</anchorDirection>
+          <slotId>	29000	</slotId>
+          <anchorPosition>-0.00539966 2.52177 0.44142</anchorPosition>
+          <anchorDirection>0.000000 1 -0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	21000	</slotId>
+          <anchorPosition>-1.65609 0.633292 -0.00950003</anchorPosition>
+          <anchorDirection>-0.934023 0.357172 -0.00535795</anchorDirection>
         </slot>
       </customizationSlots>
     </Chassis_KV1_2>
@@ -1465,9 +1482,9 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_76mm_ZiS-5>shared<maxAmmo>	114	</maxAmmo><unlocks><gun>_57mm_413<cost>	2300	</cost></gun><gun>_122mm_cannon_U-11<cost>	3750	</cost></gun></unlocks><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	20	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>	4	</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.26</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_01.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	6	</slotId><rayStart>-0.000981839 0.138496 1.02789</rayStart><rayEnd>0.0161415 0.115633 1.02617</rayEnd><rayUp>0.067 0.06 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	21	</slotId><anchorPosition>0.000009 0.14716 1.30238</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.88 0.595 0.000000 0.000000</tiling></camouflage></_76mm_ZiS-5>
-        <_57mm_413>shared<maxAmmo>	174	</maxAmmo><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	10	</gun></armor><shotDispersionRadius>0.34</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.266</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_02.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_02.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_02.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_02.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_02.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	7	</slotId><rayStart>-0.000115599 0.138277 1.06545</rayStart><rayEnd>-0.0104449 0.141459 1.06313</rayEnd><rayUp>0.065 0.06 4</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	29	</slotId><anchorPosition>-0.000058 0.14334 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.955 0.535 0.000000 0.000000</tiling></camouflage></_57mm_413>
-        <_122mm_cannon_U-11>shared<maxAmmo>	50	</maxAmmo><unlocks><vehicle>R77_KV2<cost>	26700	</cost></vehicle></unlocks><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	50	</gun></armor><shotDispersionRadius>0.57</shotDispersionRadius><reloadTime>11.4</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.2</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_03.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_03.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_03.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_03.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_03.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	8	</slotId><rayStart>-0.026869 0.00145878 1.02917</rayStart><rayEnd>-0.0393586 0.00570226 1.02917</rayEnd><rayUp>0.077 0.077 4</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	23	</slotId><anchorPosition>-0.0134345 0.00909519 1.21359</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1.06 0.52 0.000000 0.000000</tiling></camouflage></_122mm_cannon_U-11>
+        <_76mm_ZiS-5>shared<maxAmmo>	114	</maxAmmo><unlocks><gun>_57mm_413<cost>	2300	</cost></gun><gun>_122mm_cannon_U-11<cost>	3750	</cost></gun></unlocks><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	20	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>	4	</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.26</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_01.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.000981839 0.138496 1.02789</rayStart><rayEnd>0.0161415 0.115633 1.02617</rayEnd><rayUp>0.067 0.06 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>0.000009 0.0692481 1.10513</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>0.000009 0.0692481 1.10513</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.312302 0.312303	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.88 0.595 0.000000 0.000000</tiling><density>99.0103 97.2088</density><aoTextureSize>512 256</aoTextureSize></camouflage></_76mm_ZiS-5>
+        <_57mm_413>shared<maxAmmo>	174	</maxAmmo><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	10	</gun></armor><shotDispersionRadius>0.34</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.266</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_02.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_02.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_02.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_02.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_02.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.000115599 0.138277 1.06545</rayStart><rayEnd>-0.0104449 0.141459 1.06313</rayEnd><rayUp>0.065 0.06 4</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.000058 0.0691386 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.000058 0.0691386 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.312302 0.312303	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.955 0.535 0.000000 0.000000</tiling><density>98.0866 96.8765</density><aoTextureSize>512 256</aoTextureSize></camouflage></_57mm_413>
+        <_122mm_cannon_U-11>shared<maxAmmo>	50	</maxAmmo><unlocks><vehicle>R77_KV2<cost>	26700	</cost></vehicle></unlocks><armor><armor_1>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	50	</gun></armor><shotDispersionRadius>0.57</shotDispersionRadius><reloadTime>11.4</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.2</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_03.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_03.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_03.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_03.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_03.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.026869 0.00145878 1.02917</rayStart><rayEnd>-0.0393586 0.00570226 1.02917</rayEnd><rayUp>0.077 0.077 4</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0134345 0.000729391 0.904665</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0134345 0.000729391 0.904665</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.304564 0.304565	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>1.06 0.52 0.000000 0.000000</tiling><density>95.795 95.9793</density><aoTextureSize>512 256</aoTextureSize></camouflage></_122mm_cannon_U-11>
       </guns>
       <models>
         <undamaged>vehicles/russian/R80_KV1/normal/lod0/Turret_01.model</undamaged>
@@ -1484,15 +1501,14 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>TURRET</paint>
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
         <slot>
           <slotType>player</slotType>
-          <slotId>	2	</slotId>
+          <slotId>	33000	</slotId>
           <rayStart>-0.8158 0.621128 0.500361</rayStart>
           <rayEnd>	-0.721337 0.595817 0.479482	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1502,7 +1518,7 @@
         </slot>
         <slot>
           <slotType>inscription</slotType>
-          <slotId>	3	</slotId>
+          <slotId>	34000	</slotId>
           <rayStart>	0.858371 0.644053 -0.665569	</rayStart>
           <rayEnd>0.76198 0.618225 -0.659108</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1512,7 +1528,7 @@
         </slot>
         <slot>
           <slotType>player</slotType>
-          <slotId>	4	</slotId>
+          <slotId>	33001	</slotId>
           <rayStart>	0.863155 0.634237 0.509687	</rayStart>
           <rayEnd>	0.674228 0.583614 0.467928	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1523,7 +1539,7 @@
         </slot>
         <slot>
           <slotType>inscription</slotType>
-          <slotId>	5	</slotId>
+          <slotId>	34001	</slotId>
           <rayStart>	-0.858371 0.644053 -0.665569	</rayStart>
           <rayEnd>-0.76198 0.618225 -0.659108</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1533,13 +1549,21 @@
         </slot>
         <slot>
           <slotType>camouflage</slotType>
-          <slotId>	20	</slotId>
+          <slotId>	32000	</slotId>
+          <anchorPosition>	0.000000 0.964641 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	31000	</slotId>
           <anchorPosition>	0.000000 0.964641 0.000000	</anchorPosition>
           <anchorDirection>0.000000 1 0.000000</anchorDirection>
         </slot>
       </customizationSlots>
       <camouflage>
         <tiling>0.475 0.475 0.000000 0.000000</tiling>
+        <density>112.57 112.386</density>
+        <aoTextureSize>512 512</aoTextureSize>
       </camouflage>
     </Turret_1_KV1>
     <Turret_2_KV1>
@@ -1577,10 +1601,10 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_76mm_ZiS-5>shared<maxAmmo>	114	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	20	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>	4	</reloadTime><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.26</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_04.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	13	</slotId><rayStart>0.000018 0.138496 1.03978</rayStart><rayEnd>-0.0165772 -0.00333461 1.03978</rayEnd><rayUp>0.065 0.06 3</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	25	</slotId><anchorPosition>0.000009 0.146025 1.3364</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.535 0.000000 0.000000</tiling></camouflage></_76mm_ZiS-5>
-        <_57mm_413>shared<maxAmmo>	174	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><armor_12>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_12><gun>	10	</gun></armor><shotDispersionRadius>0.34</shotDispersionRadius><reloadTime>2.3</reloadTime><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.266</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_05.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	14	</slotId><rayStart>-0.000115062 0.138277 0.97625</rayStart><rayEnd>0.04979 0.139102 0.975899</rayEnd><rayUp>0.066 0.058 4</rayUp><size>0.416</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	22	</slotId><anchorPosition>-0.000058 0.134028 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.52 0.000000 0.000000</tiling></camouflage></_57mm_413>
-        <_122mm_cannon_U-11>shared<maxAmmo>	50	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	50	</gun></armor><shotDispersionRadius>0.57</shotDispersionRadius><reloadTime>11.4</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.2</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_06.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_06.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_06.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_06.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_06.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	15	</slotId><rayStart>-0.026869 0.00145878 1.04619</rayStart><rayEnd>-0.0217856 -0.0256918 1.04619</rayEnd><rayUp>0.077 0.077 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	27	</slotId><anchorPosition>-0.0293201 0.000728846 1.18201</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.52 0.000000 0.000000</tiling></camouflage></_122mm_cannon_U-11>
-        <_85mm_F-30>shared<maxAmmo>	76	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><armor_12>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_12><gun>	30	</gun></armor><shotDispersionRadius>0.42</shotDispersionRadius><reloadTime>	5	</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -24 1 -24</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.25</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_07.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_07.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_07.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_07.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_07.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	16	</slotId><rayStart>-0.0225042 0.0273076 0.787384</rayStart><rayEnd>-0.0762252 0.00997848 0.787384</rayEnd><rayUp>0.074 0.074 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	28	</slotId><anchorPosition>-0.0112521 0.0136538 1.58977</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.505 0.000000 0.000000</tiling></camouflage></_85mm_F-30>
+        <_76mm_ZiS-5>shared<maxAmmo>	114	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	20	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>	4	</reloadTime><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.26</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_04.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>0.000018 0.138496 1.03978</rayStart><rayEnd>-0.0165772 -0.00333461 1.03978</rayEnd><rayUp>0.065 0.06 3</rayUp><size>0.45</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>0.000009 0.0692482 1.10513</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>0.000009 0.0692482 1.10513</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.312302 0.312303	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.535 0.000000 0.000000</tiling><density>99.0103 97.2088</density><aoTextureSize>512 256</aoTextureSize></camouflage></_76mm_ZiS-5>
+        <_57mm_413>shared<maxAmmo>	174	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><armor_12>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_12><gun>	10	</gun></armor><shotDispersionRadius>0.34</shotDispersionRadius><reloadTime>2.3</reloadTime><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><aimingTime>2.3</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.266</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_05.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.000115062 0.138277 0.97625</rayStart><rayEnd>0.04979 0.139102 0.975899</rayEnd><rayUp>0.066 0.058 4</rayUp><size>0.416</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.000058 0.0691386 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.000058 0.0691386 1.60524</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.312304 0.312304	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.52 0.000000 0.000000</tiling><density>98.0866 96.8765</density><aoTextureSize>512 256</aoTextureSize></camouflage></_57mm_413>
+        <_122mm_cannon_U-11>shared<maxAmmo>	50	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><gun>	50	</gun></armor><shotDispersionRadius>0.57</shotDispersionRadius><reloadTime>11.4</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.2</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_06.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_06.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_06.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_06.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_06.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.026869 0.00145878 1.04619</rayStart><rayEnd>-0.0217856 -0.0256918 1.04619</rayEnd><rayUp>0.077 0.077 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0134345 0.000729394 0.904665</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0134345 0.000729394 0.904665</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.304564 0.304565	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.52 0.000000 0.000000</tiling><density>95.795 95.9793</density><aoTextureSize>512 256</aoTextureSize></camouflage></_122mm_cannon_U-11>
+        <_85mm_F-30>shared<maxAmmo>	76	</maxAmmo><armor><armor_1>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	110	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><armor_4>	0	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_4><armor_12>	75	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_12><gun>	30	</gun></armor><shotDispersionRadius>0.42</shotDispersionRadius><reloadTime>	5	</reloadTime><aimingTime>2.9</aimingTime><pitchLimits><minPitch>0 -24 1 -24</minPitch><maxPitch>0 7 1 7</maxPitch></pitchLimits><invisibilityFactorAtShot>0.25</invisibilityFactorAtShot><turretYawLimits>-180 180</turretYawLimits><models><undamaged>vehicles/russian/R80_KV1/normal/lod0/Gun_07.model</undamaged><destroyed>vehicles/russian/R80_KV1/crash/lod0/Gun_07.model</destroyed><exploded>vehicles/russian/R80_KV1/crash/lod0/Gun_07.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R80_KV1/collision/Gun_07.model</collisionModelServer><collisionModelClient>vehicles/russian/R80_KV1/collision_client/Gun_07.model</collisionModelClient></hitTester><animateEmblemSlots>	true	</animateEmblemSlots><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>insigniaOnGun</slotType><slotId>	49000	</slotId><rayStart>-0.0225042 0.0273076 0.787384</rayStart><rayEnd>-0.0762252 0.00997848 0.787384</rayEnd><rayUp>0.074 0.074 4</rayUp><size>0.5</size><hideIfDamaged>	false	</hideIfDamaged><isUVProportional>	true	</isUVProportional></slot><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0112521 0.0136538 1.58977</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0112521 0.0136538 1.58977</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.286839 0.286839	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>1 0.505 0.000000 0.000000</tiling><density>96.3704 100.587</density><aoTextureSize>512 256</aoTextureSize></camouflage></_85mm_F-30>
       </guns>
       <models>
         <undamaged>vehicles/russian/R80_KV1/normal/lod0/Turret_02.model</undamaged>
@@ -1597,15 +1621,14 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>TURRET</paint>
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
         <slot>
           <slotType>player</slotType>
-          <slotId>	9	</slotId>
+          <slotId>	33000	</slotId>
           <rayStart>	-0.890873 0.564079 0.326348	</rayStart>
           <rayEnd>	-0.700726 0.510013 0.296004	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1615,7 +1638,7 @@
         </slot>
         <slot>
           <slotType>inscription</slotType>
-          <slotId>	10	</slotId>
+          <slotId>	34000	</slotId>
           <rayStart>0.836685 0.62957 -0.549915</rayStart>
           <rayEnd>	0.740444 0.602993 -0.544328	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1625,7 +1648,7 @@
         </slot>
         <slot>
           <slotType>player</slotType>
-          <slotId>	11	</slotId>
+          <slotId>	33001	</slotId>
           <rayStart>	0.890873 0.564079 0.326348	</rayStart>
           <rayEnd>	0.700726 0.510013 0.296004	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1636,7 +1659,7 @@
         </slot>
         <slot>
           <slotType>inscription</slotType>
-          <slotId>	12	</slotId>
+          <slotId>	34001	</slotId>
           <rayStart>	-0.969861 0.663625 -0.595135	</rayStart>
           <rayEnd>	-0.584916 0.557272 -0.572794	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -1646,13 +1669,21 @@
         </slot>
         <slot>
           <slotType>camouflage</slotType>
-          <slotId>	24	</slotId>
+          <slotId>	32000	</slotId>
+          <anchorPosition>	0.000000 0.955582 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	31000	</slotId>
           <anchorPosition>	0.000000 0.955582 0.000000	</anchorPosition>
           <anchorDirection>0.000000 1 0.000000</anchorDirection>
         </slot>
       </customizationSlots>
       <camouflage>
         <tiling>0.535 0.535 0.000000 0.000000</tiling>
+        <density>116.263 116.86</density>
+        <aoTextureSize>512 512</aoTextureSize>
       </camouflage>
     </Turret_2_KV1>
   </turrets0>
@@ -1673,12 +1704,15 @@
       <engines>
         <M-17T>
           <smplEnginePower>475.7765</smplEnginePower>
+          <smplFwMaxSpeed>	34	</smplFwMaxSpeed>
         </M-17T>
         <M-17F>
           <smplEnginePower>528.6406</smplEnginePower>
+          <smplFwMaxSpeed>	34	</smplFwMaxSpeed>
         </M-17F>
         <V-2K>
           <smplEnginePower>528.6406</smplEnginePower>
+          <smplFwMaxSpeed>	34	</smplFwMaxSpeed>
         </V-2K>
       </engines>
       <chassis>
@@ -1767,7 +1801,7 @@
     <damagedStateGroup>large</damagedStateGroup>
   </effects>
   <emblems>
-    <default>ussr_star</default>
+    <default>	15749	</default>
     <lodDist>MEDIUM</lodDist>
     <alpha>0.88</alpha>
   </emblems>

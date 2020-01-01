@@ -72,15 +72,14 @@
     <hangarShadowTexture>vehicles/russian/R09_T-26/T-26_HangarShadowMap.dds</hangarShadowTexture>
     <customization>
       <customizableVehicleAreas>
-        <paint>
-        </paint>
+        <paint>	HULL	</paint>
         <camouflage>	HULL	</camouflage>
       </customizableVehicleAreas>
     </customization>
     <customizationSlots>
       <slot>
         <slotType>	clan	</slotType>
-        <slotId>	1	</slotId>
+        <slotId>	10000	</slotId>
         <rayStart>0.495305 0.131403 1.58944</rayStart>
         <rayEnd>0.495305 -0.0360147 1.55992</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
@@ -90,7 +89,7 @@
       </slot>
       <slot>
         <slotType>inscription</slotType>
-        <slotId>	2	</slotId>
+        <slotId>	14000	</slotId>
         <rayStart>0.968951 0.376767 0.00503527</rayStart>
         <rayEnd>0.940437 0.2726 0.00503553</rayEnd>
         <rayUp>	-0.964515 0.264028 0.000000	</rayUp>
@@ -100,7 +99,7 @@
       </slot>
       <slot>
         <slotType>inscription</slotType>
-        <slotId>	3	</slotId>
+        <slotId>	14001	</slotId>
         <rayStart>-0.309413 0.206307 1.8269</rayStart>
         <rayEnd>-0.309413 -0.187621 1.75745</rayEnd>
         <rayUp>0.000000 0.000000 -1</rayUp>
@@ -110,11 +109,21 @@
       </slot>
       <slot>
         <slotType>camouflage</slotType>
-        <slotId>	10	</slotId>
+        <slotId>	12000	</slotId>
+        <anchorPosition>0.000000 0.0584983 1.51335</anchorPosition>
+        <anchorDirection>0.000000 0.0386261 0.999254</anchorDirection>
+      </slot>
+      <slot>
+        <slotType>paint</slotType>
+        <slotId>	11000	</slotId>
         <anchorPosition>0.000000 0.0584983 1.51335</anchorPosition>
         <anchorDirection>0.000000 0.0386261 0.999254</anchorDirection>
       </slot>
     </customizationSlots>
+    <camouflage>
+      <density>127.557 127.216</density>
+      <aoTextureSize>1024 1024</aoTextureSize>
+    </camouflage>
   </hull>
   <chassis>
     <T-26>
@@ -1068,8 +1077,7 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>CHASSIS</paint>
           <camouflage>
           </camouflage>
         </customizableVehicleAreas>
@@ -1077,9 +1085,15 @@
       <customizationSlots>
         <slot>
           <slotType>style</slotType>
-          <slotId>	8	</slotId>
-          <anchorPosition>-0.166369 2.16026 -0.0235859</anchorPosition>
-          <anchorDirection>-0.000000 1 0.000000</anchorDirection>
+          <slotId>	29000	</slotId>
+          <anchorPosition>-0.167135 2.20131 -0.341149</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	21000	</slotId>
+          <anchorPosition>-1.2225 0.570621 -0.03905</anchorPosition>
+          <anchorDirection>-0.905769 0.422782 -0.0289327</anchorDirection>
         </slot>
       </customizationSlots>
     </T-26>
@@ -2031,8 +2045,7 @@
       </physicalTracks>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>CHASSIS</paint>
           <camouflage>
           </camouflage>
         </customizableVehicleAreas>
@@ -2040,9 +2053,15 @@
       <customizationSlots>
         <slot>
           <slotType>style</slotType>
-          <slotId>	9	</slotId>
-          <anchorPosition>-0.166297 2.16027 -0.0236447</anchorPosition>
-          <anchorDirection>-0.000000 1 -0.000000</anchorDirection>
+          <slotId>	29000	</slotId>
+          <anchorPosition>-0.167193 2.1806 -0.341159</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	21000	</slotId>
+          <anchorPosition>-1.2225 0.570621 -0.03905</anchorPosition>
+          <anchorDirection>-0.905769 0.422782 -0.0289327</anchorDirection>
         </slot>
       </customizationSlots>
     </T-26M>
@@ -2082,9 +2101,9 @@
         <repairCost>1.0</repairCost>
       </surveyingDeviceHealth>
       <guns>
-        <_37mm_B-3>shared<maxAmmo>	160	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><unlocks><gun>_45mm_20K<cost>	125	</cost></gun></unlocks><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_01.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	12	</slotId><anchorPosition>-0.0153399 0.0272144 0.776452</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
-        <_45mm_20K>shared<maxAmmo>	136	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><unlocks><gun>_37mm_ZiS-19<cost>	160	</cost></gun><vehicle>R22_T-46<cost>	1400	</cost></vehicle></unlocks><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_03.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_03.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_03.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_03.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_03.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	13	</slotId><anchorPosition>-0.0283775 0.0255083 0.733363</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_45mm_20K>
-        <_37mm_ZiS-19>shared<maxAmmo>	140	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.39</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_04.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	14	</slotId><anchorPosition>-0.0350209 0.0127999 0.914934</anchorPosition><anchorDirection>-0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_37mm_ZiS-19>
+        <_37mm_B-3>shared<maxAmmo>	160	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><unlocks><gun>_45mm_20K<cost>	125	</cost></gun></unlocks><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_01.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_01.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_01.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_01.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_01.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0153398 0.0152376 0.688448</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0153398 0.0152376 0.688448</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.116905 0.116904	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>199.349 201.326</density><aoTextureSize>512 512</aoTextureSize></camouflage></_37mm_B-3>
+        <_45mm_20K>shared<maxAmmo>	136	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><unlocks><gun>_37mm_ZiS-19<cost>	160	</cost></gun><vehicle>R22_T-46<cost>	1400	</cost></vehicle></unlocks><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_03.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_03.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_03.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_03.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_03.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0131475 0.013343 0.733363</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0131475 0.013343 0.733363</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.116899 0.116899	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>198.043 201.447</density><aoTextureSize>512 512</aoTextureSize></camouflage></_45mm_20K>
+        <_37mm_ZiS-19>shared<maxAmmo>	140	</maxAmmo><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.39</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_04.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_04.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_04.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_04.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_04.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.0153403 0.0070234 0.914934</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.0153403 0.0070234 0.914934</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>0.000000 0.116901 0.1169</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>190.242 199.568</density><aoTextureSize>512 512</aoTextureSize></camouflage></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R09_T-26/normal/lod0/Turret_01.model</undamaged>
@@ -2101,15 +2120,14 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>TURRET</paint>
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
         <slot>
           <slotType>player</slotType>
-          <slotId>	4	</slotId>
+          <slotId>	33000	</slotId>
           <rayStart>	-0.675176 0.439617 -0.763186	</rayStart>
           <rayEnd>	-0.290207 0.439617 -0.654566	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -2119,24 +2137,32 @@
         </slot>
         <slot>
           <slotType>player</slotType>
-          <slotId>	5	</slotId>
+          <slotId>	33001	</slotId>
           <rayStart>	0.675176 0.439617 -0.763186	</rayStart>
           <rayEnd>	0.290207 0.439617 -0.654566	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
+          <isMirrored>	true	</isMirrored>
           <size>0.32</size>
           <hideIfDamaged>	true	</hideIfDamaged>
-          <isMirrored>	true	</isMirrored>
           <isUVProportional>	true	</isUVProportional>
         </slot>
         <slot>
           <slotType>camouflage</slotType>
-          <slotId>	11	</slotId>
+          <slotId>	32000	</slotId>
+          <anchorPosition>	0.000000 0.652248 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	31000	</slotId>
           <anchorPosition>	0.000000 0.652248 0.000000	</anchorPosition>
           <anchorDirection>0.000000 1 0.000000</anchorDirection>
         </slot>
       </customizationSlots>
       <camouflage>
         <tiling>0.6 0.6 0.000000 0.000000</tiling>
+        <density>119.378 119.436</density>
+        <aoTextureSize>512 512</aoTextureSize>
       </camouflage>
     </T-26_cylindrical>
     <T-26_conic>
@@ -2171,9 +2197,9 @@
       </surveyingDeviceHealth>
       <invisibilityFactor>0.989</invisibilityFactor>
       <guns>
-        <_37mm_B-3>shared<maxAmmo>	160	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_05.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	19	</slotId><anchorPosition>0.000986829 0.0217102 0.638941</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_37mm_B-3>
-        <_45mm_20K>shared<maxAmmo>	136	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_07.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_07.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_07.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_07.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_07.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	16	</slotId><anchorPosition>-0.000169262 0.0355666 0.682966</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_45mm_20K>
-        <_37mm_ZiS-19>shared<maxAmmo>	140	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.39</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_08.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_08.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_08.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_08.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_08.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint></paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	17	</slotId><anchorPosition>0.000986949 0.0201694 0.865648</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling></camouflage></_37mm_ZiS-19>
+        <_37mm_B-3>shared<maxAmmo>	160	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_05.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_05.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_05.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_05.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_05.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>0.000986834 0.00865674 0.638942</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>0.000986834 0.00865674 0.638942</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.103097 0.103096	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>199.349 201.326</density><aoTextureSize>512 512</aoTextureSize></camouflage></_37mm_B-3>
+        <_45mm_20K>shared<maxAmmo>	136	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.46</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.247</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_07.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_07.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_07.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_07.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_07.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>-0.000169249 0.0172974 0.682966</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>-0.000169249 0.0172974 0.682966</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>0.000000 0.10294 0.102939</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>198.043 201.447</density><aoTextureSize>512 512</aoTextureSize></camouflage></_45mm_20K>
+        <_37mm_ZiS-19>shared<maxAmmo>	140	</maxAmmo><shotDispersionFactors><turretRotation>0.14</turretRotation><afterShot>4.0</afterShot><whileGunDamaged>2.0</whileGunDamaged></shotDispersionFactors><pitchLimits><minPitch>0 -25 1 -25</minPitch><maxPitch>0 8 1 8</maxPitch></pitchLimits><armor><armor_1>	15	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_1><armor_2>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_2><armor_3>	6	<vehicleDamageFactor>0.0</vehicleDamageFactor></armor_3><gun>	10	</gun></armor><shotDispersionRadius>0.39</shotDispersionRadius><reloadTime>2.3</reloadTime><aimingTime>2.3</aimingTime><invisibilityFactorAtShot>0.255</invisibilityFactorAtShot><models><undamaged>vehicles/russian/R09_T-26/normal/lod0/Gun_08.model</undamaged><destroyed>vehicles/russian/R09_T-26/crash/lod0/Gun_08.model</destroyed><exploded>vehicles/russian/R09_T-26/crash/lod0/Gun_08.model</exploded></models><hitTester><collisionModelServer>vehicles/russian/R09_T-26/collision/Gun_08.model</collisionModelServer><collisionModelClient>vehicles/russian/R09_T-26/collision_client/Gun_08.model</collisionModelClient></hitTester><customization><customizableVehicleAreas><paint>GUN GUN_2</paint><camouflage>GUN</camouflage></customizableVehicleAreas></customization><customizationSlots><slot><slotType>camouflage</slotType><slotId>	42000	</slotId><anchorPosition>0.000986955 0.00828441 0.865648</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41000	</slotId><anchorPosition>0.000986955 0.00828441 0.865648</anchorPosition><anchorDirection>0.000000 0.000000 1</anchorDirection><applyTo>	4096	</applyTo></slot><slot><slotType>paint</slotType><slotId>	41001	</slotId><anchorPosition>	0.000000 0.103097 0.103096	</anchorPosition><anchorDirection>	0.000000 0.707107 0.707107	</anchorDirection><applyTo>	16384	</applyTo></slot></customizationSlots><camouflage><tiling>0.5 0.5 0.000000 0.000000</tiling><density>190.242 199.568</density><aoTextureSize>512 512</aoTextureSize></camouflage></_37mm_ZiS-19>
       </guns>
       <models>
         <undamaged>vehicles/russian/R09_T-26/normal/lod0/Turret_02.model</undamaged>
@@ -2190,15 +2216,14 @@
       <wwturretRotatorSoundManual>tur_mech_trav</wwturretRotatorSoundManual>
       <customization>
         <customizableVehicleAreas>
-          <paint>
-          </paint>
+          <paint>TURRET</paint>
           <camouflage>TURRET</camouflage>
         </customizableVehicleAreas>
       </customization>
       <customizationSlots>
         <slot>
           <slotType>player</slotType>
-          <slotId>	6	</slotId>
+          <slotId>	33000	</slotId>
           <rayStart>	-0.796225 0.411728 -0.266318	</rayStart>
           <rayEnd>	-0.414767 0.292802 -0.284891	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
@@ -2208,24 +2233,32 @@
         </slot>
         <slot>
           <slotType>player</slotType>
-          <slotId>	7	</slotId>
+          <slotId>	33001	</slotId>
           <rayStart>	0.796225 0.411728 -0.266318	</rayStart>
           <rayEnd>	0.414767 0.292802 -0.284891	</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
+          <isMirrored>	true	</isMirrored>
           <size>0.3</size>
           <hideIfDamaged>	true	</hideIfDamaged>
-          <isMirrored>	true	</isMirrored>
           <isUVProportional>	true	</isUVProportional>
         </slot>
         <slot>
           <slotType>camouflage</slotType>
-          <slotId>	15	</slotId>
+          <slotId>	32000	</slotId>
+          <anchorPosition>	0.000000 0.637579 0.000000	</anchorPosition>
+          <anchorDirection>0.000000 1 0.000000</anchorDirection>
+        </slot>
+        <slot>
+          <slotType>paint</slotType>
+          <slotId>	31000	</slotId>
           <anchorPosition>	0.000000 0.637579 0.000000	</anchorPosition>
           <anchorDirection>0.000000 1 0.000000</anchorDirection>
         </slot>
       </customizationSlots>
       <camouflage>
         <tiling>0.6 0.6 0.000000 0.000000</tiling>
+        <density>121.916 121.324</density>
+        <aoTextureSize>512 512</aoTextureSize>
       </camouflage>
     </T-26_conic>
   </turrets0>
@@ -2244,9 +2277,11 @@
       <engines>
         <T-26>
           <smplEnginePower>95.1553</smplEnginePower>
+          <smplFwMaxSpeed>	36	</smplFwMaxSpeed>
         </T-26>
         <T-26F>
           <smplEnginePower>137.4465</smplEnginePower>
+          <smplFwMaxSpeed>	36	</smplFwMaxSpeed>
         </T-26F>
       </engines>
       <chassis>
@@ -2330,7 +2365,7 @@
     <damagedStateGroup>small</damagedStateGroup>
   </effects>
   <emblems>
-    <default>moder_ring</default>
+    <default>	15749	</default>
     <lodDist>MEDIUM</lodDist>
     <alpha>0.82</alpha>
   </emblems>

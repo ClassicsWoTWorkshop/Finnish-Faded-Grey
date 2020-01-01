@@ -69,6 +69,8 @@
 					</property>
 					<property>excludeMaskAndAOMap<Texture>vehicles/remodels/finnish/FI01_BT-42/BT-42_turret_01_AO.dds</Texture>
 					</property>
+					<property>colorIdMap<Texture>vehicles/russian/common/common_ID.dds</Texture>
+					</property>
 				</material>
 				<groupOrigin>	0.000000 0.597600 -0.246940	</groupOrigin>
 			</primitiveGroup>
